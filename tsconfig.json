@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "rootDir": "./src",
+    "outDir": "build",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "typeRoots": ["types", "node_modules/@types"]
+  },
+  "include": ["global.d.ts", "thirdparty.d.ts", "src/**/*.ts"],
+  "exclude": ["node_modules", "build"],
+  "assets": ["src/public/**/*"]
+}
